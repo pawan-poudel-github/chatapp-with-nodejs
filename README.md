@@ -2,7 +2,7 @@
 This is a demo of a small chatapp created using library socket.io. The messaging is bidrectional and the UI is simple and beautiful.
 ![Demo of app ](https://user-images.githubusercontent.com/113958713/219868268-04380347-1971-4652-8fab-e43212113d26.png)
 
-## **Run this project **
+## **Run this project**
 
 1. Install the dependencies
 
