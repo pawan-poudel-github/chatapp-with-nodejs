@@ -67,6 +67,7 @@ resize: none;
     font-weight: lighter;
     top: -15px;
     left: 0px;
+width:100%;
     color: #555;
 }
 .outgoing{
@@ -74,15 +75,24 @@ resize: none;
     color: #fff;
     margin-left: auto;
 }
+
+.outgoing h4{
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
 .incoming{
     background-color:#f4f1f1;
 }
-.outgoing h2{
+.incoming h4{
+    width: max-content;
+}
+.outgoing h4{
     color: rgb(128, 60, 128);
 }
 
 .message__area::-webkit-scrollbar{
-   width: 8px;
+   width:5px;
 }
 .message__area::-webkit-scrollbar-thumb{
     background-color: #444;
